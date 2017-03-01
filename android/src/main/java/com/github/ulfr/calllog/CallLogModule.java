@@ -23,11 +23,11 @@ public class CallLogModule extends ReactContextBaseJavaModule implements Lifecyc
     }
 
     @ReactMethod
-    public void getOrientation(Callback callback) {
-        callback.invoke(null, this.getCallLog());
+    public void getCallLog(Callback callback) {
+        callback.invoke(null, this.getCallLogList());
     }
 
-    private String getCallLog() {
+    private String getCallLogList() {
         return "XXX"
     }
 
