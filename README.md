@@ -1,3 +1,8 @@
-TODO
-    1. use thread
-    2. errors support
+RN plugin to get call log
+
+
+*TODO*
+
+* use thread
+* errors support
+* iOS support
