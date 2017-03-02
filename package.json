@@ -29,9 +29,6 @@
   "rnpm": {
     "android": {
       "packageInstance": "new CallLogPackage()"
-    },
-    "ios": {
-      "project": "iOS/RCTOrientation.xcodeproj"
     }
   }
 }
