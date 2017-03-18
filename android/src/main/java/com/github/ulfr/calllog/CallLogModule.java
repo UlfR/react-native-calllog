@@ -52,7 +52,7 @@ public class CallLogModule extends ReactContextBaseJavaModule implements Lifecyc
             mCall.putString("name", call.name);
             mCall.putString("number", call.number);
             mCall.putBoolean("isRead", call.isRead);
-            mCall.putString("type", call.type.toString());
+            mCall.putString("type", call.type != null ? call.type.toString() : "UNKNOWN");
             result.pushMap(mCall);
         }
         return result;
